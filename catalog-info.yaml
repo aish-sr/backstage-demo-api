@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: todo-app
+  description: A simple FastAPI-based ToDo app
+  tags:
+    - python
+    - fastapi
+spec:
+  type: service
+  owner: user:default/guest
+  lifecycle: experimental
+  providesApis:
+    - todo-api
