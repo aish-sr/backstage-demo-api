@@ -6,7 +6,6 @@ from typing import List
 
 app = FastAPI(title="Simple ToDo API", version="1.0.0")
 
-DATA_FILE = "app/todo_data.json"
 
 def read_data():
     try:
